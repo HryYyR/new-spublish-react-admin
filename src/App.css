@@ -1,0 +1,107 @@
+@font-face {
+    font-family: basefont;
+    src: url('./assets//fonts/font.ttf');
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'basefont' !important;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-jcc {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-aic {
+    display: flex;
+    align-items: center;
+}
+
+.flex-jcc-aic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.light {
+    --WB: rgba(0, 0, 0, 1);
+    --WB-1: rgba(0, 0, 0, 0.1);
+    --WB-3: rgba(0, 0, 0, 0.3);
+    --WB-5: rgba(0, 0, 0, 0.5);
+    --WB-7: rgba(0, 0, 0, 0.7);
+    --WB-8: rgba(0, 0, 0, 0.8);
+    --WB-9: rgba(0, 0, 0, 0.9);
+
+    --BW: rgb(255, 255, 255);
+    --BW-1: rgba(255, 255, 255, 0.1);
+    --BW-3: rgba(255, 255, 255, 0.3);
+    --BW-5: rgba(255, 255, 255, 0.5);
+    --BW-7: rgba(255, 255, 255, 0.7);
+    --BW-8: rgba(255, 255, 255, 0.8);
+    --BW-9: rgba(255, 255, 255, 0.9);
+
+    --socket-list: #ecf0f1;
+    --socket-list-item: #bdc3c7;
+    --socket-list-item-hover: #95a5a6;
+
+}
+
+.dark {
+    --WB: rgb(255, 255, 255);
+    --WB-1: rgba(255, 255, 255, 0.1);
+    --WB-3: rgba(255, 255, 255, 0.3);
+    --WB-5: rgba(255, 255, 255, 0.5);
+    --WB-7: rgba(255, 255, 255, 0.7);
+    --WB-8: rgba(255, 255, 255, 0.8);
+    --WB-9: rgba(255, 255, 255, 0.9);
+
+    --BW: rgba(0, 0, 0, 1);
+    --BW-1: rgba(0, 0, 0, 0.1);
+    --BW-3: rgba(0, 0, 0, 0.3);
+    --BW-5: rgba(0, 0, 0, 0.5);
+    --BW-7: rgba(0, 0, 0, 0.7);
+    --BW-8: rgba(0, 0, 0, 0.8);
+    --BW-9: rgba(0, 0, 0, 0.9);
+
+    --socket-list: rgb(39, 43, 56);
+    --socket-list-item: rgb(49, 55, 69);
+    --socket-list-item-hover: rgb(33, 37, 48);
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: lightsteelblue;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: lightseagreen;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background-color: lightsalmon;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: lightcoral;
+}

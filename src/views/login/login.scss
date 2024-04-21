@@ -1,0 +1,25 @@
+@import url('../../App.css');
+.login {
+    height: 100vh;
+    background-color: rgb(35, 35, 65);
+}
+.login_container {
+    width: 600px;
+    height: 400px;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: rgba(10, 11, 20, 0.4);
+    border-radius: 5px;
+    input{
+        margin: 0.5rem 0;
+    }
+    h1{
+        margin-bottom: 3rem;
+        color: white;
+        font-weight: 900;
+    }
+    button{
+    margin-top: 1rem;
+    font-weight: 900;
+}
+}

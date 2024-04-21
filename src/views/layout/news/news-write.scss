@@ -1,0 +1,131 @@
+.writenews {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgb(209, 209, 209);
+
+    .header {
+        height: 80px;
+        background-color: rgb(220, 220, 220);
+
+        .header_title {
+            display: flex;
+            background-color: white;
+            align-items: center;
+            justify-content: space-between;
+            height: 55px;
+            .header_title_titleInput {
+                height: 55px;
+                width: 80%;
+                outline: none;
+                border: none;
+                user-select: none;
+                padding-left: 1rem;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .header_title_publishBtn{
+                cursor: pointer;
+                user-select: none;
+                margin-right: 2rem;
+                width: 80px;
+                height: 45px;
+                background-color: rgb(64,158,255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 1rem;
+                font-weight: 900;
+                border-radius: 5px;
+                transition: 0.2s opacity;
+                &:hover{
+                    opacity: 0.6;
+                }
+            }
+
+        }
+
+        .tool_list {
+            height: 25px;
+            display: flex;
+            align-items: center;
+            padding: 0 0.2rem;
+
+            .tool_item{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                transition: 0.2s;
+                &:hover{
+                    background-color: rgb(206, 206, 206);
+                }
+            }
+        }
+
+    }
+
+    .container {
+        height: calc(100% - 80px);
+        display: flex;
+
+        .container_edit {
+            width: 50%;
+            height: 100%;
+            // border-right: 1px solid rgba(0, 0, 0, 0.2);
+            display: flex;
+
+            .container_edit_textarea {
+                width: 100%;
+                user-select: none;
+                border: none;
+                outline: none;
+                resize: none;
+                background-color: rgb(236, 236, 236);
+                padding: 1rem;
+                overflow-y: scroll;
+            }
+        }
+
+        .container_show {
+            width: 50%;
+            overflow-y: scroll;
+            background-color: white;
+            padding: 1rem;
+
+            ol,
+            ul {
+                margin-left: 1rem;
+            }
+        }
+
+        .help {
+            width: 260px;
+            padding: 1rem;
+
+            .help_option {
+                font-size: 1.6rem;
+                font-weight: 900;
+                display: flex;
+                justify-content: space-between;
+                margin: 0.5rem 0 2rem 0;
+
+                span {
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+
+            .help_item {
+                display: flex;
+                justify-content: space-between;
+                height: 30px;
+                color: gray;
+
+
+            }
+        }
+    }
+}

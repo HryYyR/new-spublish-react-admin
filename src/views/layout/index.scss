@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+    width: 3px !important;
+}
+header{
+    color: white !important;
+}
+.backLogin{
+    width: 60px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.3s color;
+    &:hover{
+        color: red;
+    }
+    
+}
